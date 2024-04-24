@@ -5,6 +5,7 @@
 }
 
 .avatar.distorted{
-    height: 600px;
+    height: 400px;
     width: 200px;
 }
+/* I accidentally made the hight of avatar distorted three times the width rather than twiice the width. Corrected. I should have caught that when comparing to the goal image. Pay more attention to these details. */
