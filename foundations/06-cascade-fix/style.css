@@ -40,3 +40,5 @@ div.text {
   font-size: 22px;
   font-weight: 100;
 }
+
+/* The solutions seemed like much more work than what I did. I moved around a couple of blocks, and added specificity to a third. Oh, well. It worked. */
