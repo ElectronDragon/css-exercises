@@ -6,22 +6,39 @@ body {
 .card {
   width: 400px;
   background: #fff;
+  padding: 8px;
   margin: 16px auto;
+  /* It took me a while, but I managed to get this one. Understanding what the 'card' class represented was the challenge. Putting a temporary border around everything so I could clearly see each element helped. */
 }
 
 .title {
   background: #e3f4ff;
+  margin: 0px;
+  padding: 8px;
+  font-size: 16px;
+  /* I got this one as well, although I did not set a bottom margin as I knew it would be captured by the margin of the next box due to margin collapse. */
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px;
+  margin: 8px 0px;
+  /* This one was also correct, although as noted above, I used top margin on this block rather than bottom margin on the previous block. */
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 0px;
+  padding: 8px;
+  text-align: center;
+  /* Also correct.; */
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 8px auto;
+  padding: 8px 24px;
+  /* This one really threw me. I eventually got the display: block; element, but kept putting the margin sizes in the wrong order (ie, auto 8px rather than 8px auto)! I could not figure out what I was doing wrong! */
 }
