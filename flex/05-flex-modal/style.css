@@ -23,7 +23,11 @@ body {
 
   padding: 12px;
 }
+/* Did I make it look the same? Yup. Did I do it the way they did in the solution? Not even close. 
 
+My solution was to create a flex block across the top, and then (by knowing the px spacing) manually aligning the lower elements corretly. 
+
+The TOP solution was to turn modal into a horizontal flex block which contained a vertical flex block as the central element (essentially a "T" shape). Much more elegant, and much easier to change going forward.*/
 .icon {
   color: royalblue;
   font-size: 26px;
