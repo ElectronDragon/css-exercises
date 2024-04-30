@@ -5,8 +5,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between */
-
+  
   /* Will be want all the shrinking and growing in the content? Consider. */
 }
 
@@ -17,6 +16,9 @@ body {
 
   display: flex;
   flex: 0;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .footer {
