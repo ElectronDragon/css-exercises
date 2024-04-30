@@ -21,6 +21,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /* I put padding in the larger container rather than the buttons themselves. The effect is the same, but I can see that it would be good practice to put it here. */
 }
 
 input {
@@ -34,6 +36,8 @@ input {
 a {
   text-decoration: none;
   color: #6d6d6d;
+
+  /* Interestingly, I used an eye-dropper to get the color of the font, but it still ended up giving me something different from the #666 in the solution. */
 }
 
 .header, .footer, .left-links, .right-links {
@@ -46,6 +50,7 @@ a {
 .header, .footer {
   justify-content: space-between;
   padding: 16px;
+  /* Hah! I remembered to combine this one! */
 }
 
 .footer {
@@ -57,9 +62,13 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  /* I did not include either flex 1 or gap 16, as the image already resembled the desired outcome without further adjustment. */
 }
 
 ul {
   margin: 0;
   padding: 0;
+
+  /* I put the padding into the child elements, and created a universal command regarding links. As the links only appeared in these lists it makes no difference, but if I had other content with different styling, this could have made a difference. */
 }
