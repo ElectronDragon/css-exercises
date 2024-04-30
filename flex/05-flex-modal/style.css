@@ -85,3 +85,12 @@ button.cancel {
 button.close-button {
   margin-left: auto;
 }
+
+.text, .buttons {
+  margin-top: -10px;
+  margin-left: 56px;
+}
+
+.buttons {
+  margin-top: 12px;
+}
