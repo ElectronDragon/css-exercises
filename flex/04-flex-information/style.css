@@ -1,5 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  /* They added text-align: center to the body rather than the individual elements. That is so smart!
+  
+  I think  part of the problem is that I'm biting off small chunks at a time because the big picture is too much for me. I hope I can oneday be at the level where I can see obvious shortcuts like that.*/
 }
 
 img {
@@ -13,6 +16,7 @@ img {
 
   text-align: center;
   margin: 32px;
+  /* I thought about margin-bottom, as there was nothing else relevant for the margins to effect. But it's another 7 characters, so I guess on this one I was more efficient! */
 }
 
 .facts {
