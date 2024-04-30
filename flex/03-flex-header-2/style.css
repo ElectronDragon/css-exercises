@@ -14,6 +14,8 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 
   display: flex;
+  align-items: center;
+  padding: 8px;
 }
 
 .profile-image {
@@ -37,6 +39,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+
+  margin: 8px;
 }
 
 a {
@@ -49,8 +53,20 @@ ul {
   list-style-type: none;
 
   display: flex;
+  gap: 16px;
 }
 
 .buttons {
   display: flex;
+  margin-left: auto;
+  /* margin-right: 8px; */
+  gap: 12px;
 }
+
+/* There are a number of differences here although I feel that I matched the image correctly, so I don't think what I did was wrong, specifically. 
+
+Just like the solution, I created an extra container for the right-hand elements. I also correctly added flex elements and margins.
+
+However, I seemed to align-center the header, while the solution align-center'd the smaller flex boxes. In this case it made no difference, but it's something for me to consider. Equally, the solution took out the default margins of the ul, whereas I simply calibrated my gaps to what I could see, so the overall result was the same.
+
+I did like how the solution modified both the links and t he buttons in the same line of code. Was that called an array? I need to think about those sorts of efficiencies eventually, but given how much I struggle just to get it right, it's probably too early for me to worry about it.*/
