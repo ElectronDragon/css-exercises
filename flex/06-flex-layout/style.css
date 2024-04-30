@@ -26,9 +26,15 @@ input {
   margin-bottom: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: #6d6d6d;
+}
+
 .header, .left-links, .right-links {
   display:flex;
   gap: 12px;
+  list-style-type: none;
 }
 
 .header {
