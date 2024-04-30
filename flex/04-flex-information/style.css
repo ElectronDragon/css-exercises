@@ -15,6 +15,23 @@ img {
   margin: 32px;
 }
 
+.facts {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.text {
+  width: 200px;
+  text-align: center;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
